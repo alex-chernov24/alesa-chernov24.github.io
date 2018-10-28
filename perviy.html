@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head><link rel="stylesheet"  type="text/css" href="perviys.css"/>
+<meta charset="utf-8">
+<title>Программирование</title>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<script src="js/libs/jquery.backgroundvideo.min.js"></script>
+<header>
+<div id="logo">
+<span>VIT.com</span>
+</div>
+<div id="about" onClick="slowScroll('#top')">
+<a href="#sled"  title="Возможности" onClick="slowScroll('#main')">Что такое программирование?</a>
+<a href="#exp"  title="Преимущества" onClick="slowScroll('#overiew')">Примеры</a>
+<a href="#contacts"  title="Контакты" onClick="slowScroll('#contacts')">Обратная связь</a>
+<a href="#faq"  title="Ответы на вопросы" onClick="slowScroll('#faq')">FAQ</a>
+</div>
+</header>
+     <div class="fullscreen-bg">
+    <div class="overlay">
+        <h1>Программирование<br></h1><h3>как способ жизни!</h3>
+    </div>
+    <video loop muted autoplay poster="video/plane.jpg" class="fullscreen-bg__video">
+        <source src="videos/For_Wes.mp4" type="video/mp4">
+        <source src="video/plane.webm" type="video/webm">
+    </video>
+</div>
+<div id="sled">
+<div id="1">
+<span id="chida">
+Программирование
+</span>
+<h3>
+процесс создания компьютерных программ. По выражению одного из основателя языков программирования Никлауса Вирта «Программы = алгоритмы + структуры данных».
+</h3>
+</div>
+<div id="2">
+<h3 >
+В узком смысле (так называемое кодирование) под программированием понимается написание инструкций (программ) на конкретном языке программирования (часто по уже имеющемуся алгоритму — плану, методу решения поставленной задачи).
+</h3>
+</div>
+</div>
+<div id="anton">
+<center><h1 id="exp">Примеры:</h1></center>
+<div class="img">
+<img src="https://im0-tub-ua.yandex.net/i?id=f95b1eb38e985c0e9a941c989349a4ad&n=13&exp=1" 
+width="350" height="250">
+<span>язык программирования CSS</span>
+</div>
+<div class="img">
+<img src="https://im0-tub-ua.yandex.net/i?id=ccc25beb235cbbb885fb08a7c72e1779&n=33&w=267&h=150" width="350" height="250">
+<span>язык программирования HTML</span>
+</div>
+</div>
+<div id="contacts">
+<center><h1>обратная связь</h1></center>
+ <form id="form_input"  action="perviy.html" method="post">
+<label for="name">имя<span>*</span></label><br>
+  <input type="name" placeholder="Введите свое имя" name="name" id="name"><br>
+  <label for="name">Фамилия<span>*</span></label><br>
+  <input type="name" name="famil" id="famil" placeholder="Введите свою фамилию"><br>
+  <label for="name">Email<span>*</span></label><br>
+  <input type="name" name="Email" id="Email" placeholder="Введите свой Email"><br>
+  <textarea placeholder="Введите ваше сообщение" name="message" id="massage"></textarea><br>
+  <p><input type="submit"></p>
+ </form>
+</div>
+<div id="faq">
+</div>
+</body>
+</html>
